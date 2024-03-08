@@ -1,0 +1,32 @@
+.btn_active,
+.btn {
+	border-radius: 8px;
+	padding: 10px;
+	background-color: #dedede;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_active {
+	background-color: green;
+	color: white;
+	box-shadow: 0px 0px 15px 2px #000;
+}
+
+.inputs_section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #dedede;
+	padding: 20px;
+}
+
+.inputs_section div {
+	display: flex;
+	flex-direction: column;
+}
+.inputs_section div img {
+	width: 200px;
+}
